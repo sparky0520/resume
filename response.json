@@ -1,0 +1,52 @@
+{
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "This report presents Gemini 1.5 Pro, the latest in the Gemini family of multi-modal models, which can handle extremely long sequences of data (up to 10M tokens) with minimal degradation in performance. Gemini 1.5 Pro is significantly more efficient to serve than prior models, and outperforms Gemini 1.0 Pro and approaches Gemini 1.0 Ultra on a wide variety of tasks, even surpassing those models on many tasks.  For example, the model can recall fine-grained information from up to 10M tokens of text, learn to translate English into Kalamang from a single grammar book, and answer questions about long documents and videos.  This work explores the potential of long-context models in various domains, and examines the challenges of evaluating and deploying such models in a responsible manner."
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "safetyRatings": [
+          {
+            "category": "HARM_CATEGORY_HATE_SPEECH",
+            "probability": "NEGLIGIBLE",
+            "probabilityScore": 0.18945313,
+            "severity": "HARM_SEVERITY_NEGLIGIBLE",
+            "severityScore": 0.16796875
+          },
+          {
+            "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+            "probability": "NEGLIGIBLE",
+            "probabilityScore": 0.1796875,
+            "severity": "HARM_SEVERITY_LOW",
+            "severityScore": 0.20703125
+          },
+          {
+            "category": "HARM_CATEGORY_HARASSMENT",
+            "probability": "NEGLIGIBLE",
+            "probabilityScore": 0.203125,
+            "severity": "HARM_SEVERITY_NEGLIGIBLE",
+            "severityScore": 0.17773438
+          },
+          {
+            "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+            "probability": "NEGLIGIBLE",
+            "probabilityScore": 0.08886719,
+            "severity": "HARM_SEVERITY_LOW",
+            "severityScore": 0.24511719
+          }
+        ],
+        "avgLogprobs": -0.8604968843005952,
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 19886,
+      "candidatesTokenCount": 168,
+      "totalTokenCount": 20054
+    }
+  }
